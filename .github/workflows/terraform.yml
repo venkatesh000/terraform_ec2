@@ -65,7 +65,7 @@ jobs:
         
     steps:
     -name: Configure AWS Credentials Action for Github Actions
-     uses: aws-actions/configure-aws-credentials @v1
+     uses:aws-actions/configure-aws-credentials@v1
      with:
         role-to-assume: arn:aws:iam::608597622040:oidc-provider/token.actions.githubusercontent.com
         role-session-name: githubusercontent
