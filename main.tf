@@ -1,5 +1,5 @@
 provider "aws"{
-    region = "us-east-1"
+    region = "us-east-1" #enter the region for the aws
     access_key = "AKIAY3MZ6XUMFADH6B53"
     secret_key = "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"
 }
